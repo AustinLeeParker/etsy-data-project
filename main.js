@@ -82,12 +82,11 @@ function question5() {
 // Answer:
 function question6() {
   // Answer:
-  var seller_items;
+  var seller_items = 0;
   for (i = 0; i < data.length; i++) {
-    if (data[i].who_made = "seller") {
-      console.log(data[i].who_made);
+    if (data[i].who_made === "i_did") {
+      seller_items++;
     }
+    console.log(seller_items);
   }
-
-  //   console.log(who_made);
 }
